@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    position: relative;
+  }
+  
+  .navbar {
+    font-family: Arial, sans-serif;
+    background: rgb(1,0,15);
+    background: linear-gradient(90deg, rgba(1,0,15,1) 21%, rgba(16,16,105,1) 100%, rgba(0,212,255,1) 100%);
+    overflow: hidden;
+    font-size: 22px;
+ 
+    display: flex;
+    
+ 
+    
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    z-index: 2;
+  }
+  
+  .navbar a:hover {
+    background-color: slateblue;
+    color: #000420;
+    z-index: 2;
+  }
+
+  /*     */
+  .div1{
+    background-color: slateblue;
+    position: relative;
+    height: 40vh;
+
+  }
+  .div2{
+    position: relative;
+    bottom: 650px;
+    left: 60px;
+    width: 60%;
+    
+
+  }
+
+  .div2 img{
+    border: 2px solid black;
+    border-radius: 500px;
+    
+  }
+
+  .div3{
+    background-color: #000420;
+    position: relative;
+    height: 40vh;
+    color: white;
+
+  }
+
+  .heading , .name{
+   
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    margin-right: 400px;
+    position: relative;
+    top: 70px;
+  }
+
+  .heading{
+    font-size: 120px;
+    font-weight: 700;
+    
+
+  }
+
+  .name{
+    font-size: 70px;
+    font-weight: 700;
+    display: flex;
+    position: relative;
+    right: 250px;
+
+  }
+
+  .div3p{
+    display: flex;
+    width: 60%;
+    position: relative;
+    left: 700px;
+    top: 150px;
+    font-size: 28px;
+  }
+
+  .contain{
+    background-color: #000420;
+    height: 80vh;
+  }
+  .container{
+    background-color: slateblue;
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .down{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+  }
+
+  .down h2{
+    font-size: 90px;
+    font-weight: 600;
+  }
+
+  .down p{
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  button{
+    width: 400px;
+    height: 100px;
+    font-size: 35px;
+    text-decoration: none;
+    color: #000420;
+    background-color: #000420;
+  }
+
+  a{
+text-decoration: none;
+color: white;
+  }
+
+.para{
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  flex-direction: column;
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 200px;
+}
+
+header img{
+  width: 55px;
+  height: 50px;
+  color: #80ffdb;
+  position: relative;
+  z-index: 3;
+  left: 1050px;
+}
